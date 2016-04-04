@@ -11,7 +11,7 @@ gulp.task('clean', function () {
 gulp.task('build', ['build-js']);
 
 gulp.task('build-js', function () {
-  gulp.src('src/**')
+  gulp.src(['src/**', '!src/**/{__tests__,__tests__/**}'])
     .pipe(babel())
     .pipe(gulp.dest('dist'));
 });
