@@ -40,9 +40,9 @@
   },
   "jest": {
     "unmockedModulePathPatterns": [
-      "<rootDir>/node_modules/react",
-      "<rootDir>/node_modules/react-dom",
-      "<rootDir>/node_modules/react-addons-test-utils"
+      "react",
+      "react-dom",
+      "react-addons-test-utils"
     ]
   },
   "files": [
