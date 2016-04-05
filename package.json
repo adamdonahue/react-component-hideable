@@ -1,6 +1,6 @@
 {
   "name": "react-component-hideable",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple React component to display or hide a bit of text.",
   "main": "dist/index.js",
   "scripts": {

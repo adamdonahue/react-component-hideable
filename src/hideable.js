@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hideable = ({children, isHidden=false}) => {
   if (isHidden)
-    return <div/>;
+    return <noscript/>;
   return <div>{children}</div>;
 };
 
